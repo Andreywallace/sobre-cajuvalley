@@ -5,6 +5,28 @@ based on dark.css by Ivan Sagalaev
 
 */
 
+
+@font-face {
+    font-family: 'LAKAMEALEON';
+    src:  url('../font/laka/LAKAMEALEON.ttf.woff') format('woff'),
+    url('../font/laka/LAKAMEALEON.ttf.svg#LAKAMEALEON') format('svg'),
+    url('../font/laka/LAKAMEALEON.ttf.eot'),
+    url('../font/laka/LAKAMEALEON.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+h1.customfont { 
+    font-family: "Lakamealeon", Verdana, Tahoma;
+letter-spacing: 2px;
+}
+
+h4.customfont { 
+    font-family: "Lakamealeon", Verdana, Tahoma;
+letter-spacing: 2px;
+}
+
+
+
 #inicial {
     width: 100% !important;
     height: 100% !important;
